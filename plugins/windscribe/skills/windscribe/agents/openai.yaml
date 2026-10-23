@@ -1,0 +1,9 @@
+interface:
+  display_name: "Windscribe"
+  short_description: "Control and verify your local Windscribe VPN"
+  default_prompt: "Use $windscribe to check my current Windscribe connection and firewall state."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "windscribe"
+      description: "Local Windscribe MCP server"

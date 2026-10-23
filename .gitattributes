@@ -1,0 +1,4 @@
+# Keep source and packaged text identical across Windows, macOS, and Linux.
+* text=auto eol=lf
+*.png binary
+*.zip binary

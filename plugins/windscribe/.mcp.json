@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "windscribe": {
+      "command": "node",
+      "args": ["${PLUGIN_ROOT}/server/dist/server.cjs"],
+      "cwd": "${PLUGIN_ROOT}"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "windscribe-dev",
+  "interface": {
+    "displayName": "Windscribe Development"
+  },
+  "plugins": [
+    {
+      "name": "windscribe",
+      "source": {
+        "source": "local",
+        "path": "./plugins/windscribe"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

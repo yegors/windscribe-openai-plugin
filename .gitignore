@@ -1,0 +1,37 @@
+# Installed dependencies and package-manager caches
+node_modules/
+.npm/
+
+# Generated runtime, license copy, release archives, and review submissions
+/plugins/windscribe/server/dist/
+/plugins/windscribe/LICENSE
+/dist/
+/submission/
+
+# Test and Python caches
+coverage/
+.nyc_output/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local configuration and logs; keep sanitized configuration templates
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.local
+*.log
+
+# Editor and operating-system files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
