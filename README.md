@@ -1,6 +1,6 @@
 # Windscribe plugin
 
-Windscribe 0.3.1 adds a real local MCP server to the official desktop plugin. It exposes 17 tools spanning connection control, public/VPN IP, usage, IP rotation/favorites, logout and app updates, plus optional Linux headless features. The plugin remains named **Windscribe** and retains its supplied logo and publisher metadata.
+Windscribe 0.3.2 updates the plugin's privacy policy URL to `https://windscribe.com/privacy/chatgpt` for OpenAI review. Its bundled local MCP server exposes 17 tools spanning connection control, public/VPN IP, usage, IP rotation/favorites, logout and app updates, plus optional Linux headless features. The plugin remains named **Windscribe** and retains its supplied logo and publisher metadata.
 
 ## Runtime
 
@@ -19,7 +19,7 @@ See [packaged runtime documentation](plugins/windscribe/README.md) for timeouts,
 - `plugins/windscribe/`: package source, including portable and Codex-compatible manifests/configuration, logo, and skill. Building adds the installable runtime.
 - `docs/`: internal testing, submission review, demo and website disclosure documents.
 - `.agents/plugins/marketplace.json`: existing `windscribe-dev` development catalog.
-- `dist/windscribe-0.3.1.zip`: release ZIP, with SHA256 sidecar.
+- `dist/windscribe-0.3.2.zip`: release ZIP, with SHA256 sidecar.
 
 Development dependencies stay outside the installable plugin folder. The release contains 12 explicitly selected files, including the project MIT license and bundled dependency license notices. No source test fixtures, account data, npm cache, or node_modules directory is shipped.
 
@@ -62,7 +62,7 @@ codex plugin marketplace add .
 codex plugin add windscribe@windscribe-dev --json
 ```
 
-Register the marketplace once per machine. The install command refreshes its cached plugin. Start a fresh local chat and select Windscribe; restart the host if necessary. Editing this source directory alone does not refresh an installed copy. Verify the selected plugin is 0.3.1 and its 17 MCP tools appear, rather than the older standalone `windscribe-vpn` skill.
+Register the marketplace once per machine. The install command refreshes its cached plugin. Start a fresh local chat and select Windscribe; restart the host if necessary. Editing this source directory alone does not refresh an installed copy. Verify the selected plugin is 0.3.2 and its 17 MCP tools appear, rather than the older standalone `windscribe-vpn` skill.
 
 The separately installed shared-workspace plugin has a different release lifecycle. Updating the local development plugin does not update that shared entry. Public-directory approval is also separate from this working local package.
 

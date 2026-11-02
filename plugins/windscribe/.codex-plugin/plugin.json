@@ -1,6 +1,6 @@
 {
   "name": "windscribe",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "license": "MIT",
   "description": "Control your installed Windscribe VPN through a bundled local MCP server.",
   "skills": "./skills/",
@@ -24,7 +24,7 @@
     "supportURL": "https://github.com/yegors/windscribe-openai-plugin",
     "logo": "./assets/logo.png",
     "composerIcon": "./assets/logo.png",
-    "privacyPolicyURL": "https://windscribe.com/privacy",
+    "privacyPolicyURL": "https://windscribe.com/privacy/chatgpt",
     "termsOfServiceURL": "https://windscribe.com/terms"
   },
   "requires_local_executor": true,
@@ -96,7 +96,7 @@
         "commerce_description": "This release uses existing Windscribe accounts only. It contains no purchases, subscription plans, upgrade promotions, payment collection or checkout links. Future commerce plans are outside this submitted version."
       },
       "publication": {
-        "release_notes": "0.3.1: Review-preparation release with explicit per-tool effect annotations, clarified VPN destination input, five positive and three negative review cases, and removal of raw diagnostic-log upload. Retains public/VPN IP, usage, connection, firewall, IP management, logout, update and capability-gated Linux workflows.",
+        "release_notes": "0.3.2: Updates the privacy policy URL to https://windscribe.com/privacy/chatgpt in both plugin manifests for OpenAI review.",
         "countries": []
       }
     }

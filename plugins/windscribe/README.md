@@ -1,6 +1,6 @@
 # Windscribe
 
-Official Windscribe desktop plugin, version 0.3.1. A local stdio MCP server controls the installed Windscribe CLI. The host launches the server; no listening TCP port, hosted service, or OpenAI API key is required.
+Official Windscribe desktop plugin, version 0.3.2. A local stdio MCP server controls the installed Windscribe CLI. The host launches the server; no listening TCP port, hosted service, or OpenAI API key is required.
 
 ## Requirements
 

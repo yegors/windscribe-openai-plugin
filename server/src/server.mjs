@@ -3,7 +3,7 @@ import { WindscribeService, resultSchema, connectSchema, portsSchema, firewallSc
 import { featureTools } from './features.mjs';
 
 export function createServer(service = new WindscribeService()) {
-  const server = new McpServer({ name: 'windscribe', version: '0.3.1' });
+  const server = new McpServer({ name: 'windscribe', version: '0.3.2' });
   const tools = [
     ['get_status', 'Windscribe status', 'Read login, connection, protocol, firewall and reported update availability. For public IP use get_public_ip; for allowance use get_account_usage. May start Windscribe if not running.', emptySchema, true],
     ['list_ports', 'Windscribe protocol ports', 'Read supported ports for a VPN protocol.', portsSchema, true],

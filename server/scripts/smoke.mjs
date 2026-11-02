@@ -5,7 +5,7 @@ import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const target = process.argv[2] ? resolve(process.argv[2]) : resolve(root, '../plugins/windscribe/server/dist/server.cjs');
-const client = new Client({ name: 'windscribe-readonly-smoke', version: '0.3.1' });
+const client = new Client({ name: 'windscribe-readonly-smoke', version: '0.3.2' });
 // The SDK inherits only standard environment variables. Forward the supported
 // operator override explicitly so custom installations and fixtures work.
 const env = process.env.WINDSCRIBE_CLI ? { WINDSCRIBE_CLI: process.env.WINDSCRIBE_CLI } : {};
